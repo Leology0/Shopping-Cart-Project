@@ -1,5 +1,6 @@
 // Shopping Cart Project by Leo
-
+// Clear cart when page reloads
+localStorage.clear();
 
 // Variables
 // Buttons
