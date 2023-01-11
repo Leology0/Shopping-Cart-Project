@@ -6,3 +6,11 @@ body {
 h1{
     text-align: center;
 }
+
+#shopping-cart {
+    text-align: right;
+}
+
+#shopping-cart-div {
+    display: none;
+}

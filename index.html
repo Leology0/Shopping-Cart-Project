@@ -7,26 +7,38 @@
     <title>The Awesome Shop</title>
     <link rel="stylesheet" href="style.css" />
     
-    <script defer src="main.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/page.js"></script>
 </head>
 <body>
     <!-- Store Div -->
-    <div id="storeDiv">
+    <div id="store-div">
         <h1>The Awesome Shop</h1>
+        <button id="shopping-cart"><img src="img/shoppingCart.png" alt="shoppingCart" width="30px" height="30px"></button>
         
         <hr>
 
         <img src="img/awesome-sauce.jpg" width="150px" height="150px">
-        <h2>$99.99 <button>Add to cart</button></h2>
+        <h2>$99.99 <button id="sauce-btn">Add to cart</button></h2>
         <p>Super Awesome Sauce</p>
 
         <img src="img/apple.jpg" width="150px" height="150px">
-        <h2>$1.00 <button>Add to cart</button></h2>
+        <h2>$1.00 <button id="apple-btn">Add to cart</button></h2>
         <p>Juicy Apple</p>
 
         <img src="img/pringles.jpg" width="150 px" height="150px">
-        <h2>$2.50 <button>Add to cart</button></h2>
+        <h2>$2.50 <button id="pringles-btn">Add to cart</button></h2>
         <p>Pringles</p>
+    </div>
+
+    <!-- Shopping Cart Div -->
+    <div id="shopping-cart-div">
+        <h1>Your Shopping Cart</h1>
+        <button id="back-btn"><img src="img/backArrow.png" alt="backArrow" width="30px" height="30px"></button>
+        <hr>
+        <!-- Output for items in shopping cart -->
+        <div id="output"></div>
+        
 
     </div>
     
